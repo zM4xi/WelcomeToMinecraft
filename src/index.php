@@ -16,7 +16,7 @@
 	<body>
 		<nav class="navbar navbar-expand-lg main-navbar">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="#">
+			  <a class="navbar-brand" href="#dashboard">
 			  	<img src="img/logo-light.png" alt="Logo">
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +47,7 @@
 		  </div>
 		</nav>
 		<section class="hero bg-overlay" id="dashboard" data-bg="img/main-bg.png">
+
 			<div class="text">
 				<p class="lead">Welcome To Minecraft</p>
 				<h1>We love<span class="bold"> Minecraft</span> and our<span class="bold"> Community</span>.</h1>
@@ -70,7 +71,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore.
 								</p>
-								<a href="#" class="more">Learn More</a>
+								<a href="about-us.php" class="more">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -85,7 +86,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore.
 								</p>
-								<a href="#" class="more">Learn More</a>
+								<a href="our-team.php" class="more">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -100,7 +101,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore.
 								</p>
-								<a href="#" class="more">Learn More</a>
+								<a href="specs.php" class="more">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -119,10 +120,10 @@
 							  <img class="card-img-top" src="img/games/bedwars.png" alt="Article Image">
 							  <div class="card-body">
 								  <div class="card-subtitle mb-2 text-muted">by zM4xi</div>
-							    <h4 class="card-title"><a href="#games">BedWars</a></h4>
+							    <h4 class="card-title"><a href="example-game.php">BedWars</a></h4>
 							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
 							    <div class="text-right">
-								    <a href="#games" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
+								    <a href="example-game.php" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
 							    </div>
 						    </div>
 						  </article>
@@ -132,10 +133,10 @@
 							  <img class="card-img-top" src="img/games/skywars.png" alt="Article Image">
 							  <div class="card-body">
 								  <div class="card-subtitle mb-2 text-muted">by zM4xi</div>
-							    <h4 class="card-title"><a href="#games">SkyWars</a></h4>
+							    <h4 class="card-title"><a href="example-game.php">SkyWars</a></h4>
 							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
 							    <div class="text-right">
-								    <a href="#games" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
+								    <a href="example-game.php" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
 							    </div>
 						    </div>
 						  </article>
@@ -145,10 +146,10 @@
 							  <img class="card-img-top" src="img/games/jumpnrun.png" alt="Article Image">
 							  <div class="card-body">
 								  <div class="card-subtitle mb-2 text-muted">by zM4xi</div>
-							    <h4 class="card-title"><a href="#games">Jump'n Runs</a></h4>
+							    <h4 class="card-title"><a href="example-game.php">Jump'n Runs</a></h4>
 							    <p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent consequat, ipsum molestie pellentesque venenatis.</p>
 							    <div class="text-right">
-								    <a href="#games" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
+								    <a href="example-game.php" class="card-more">Read More <i class="ion-ios-arrow-right"></i></a>
 							    </div>
 						    </div>
 						  </article>
@@ -183,6 +184,7 @@
 							<p class="projects-description">
 								You can see a little sneak peak in the background so you can guess how sick this map is gonna look. When it'll be released.<br /><br /><br /><br /><br /><br />
 							</p>
+							<a href="https://www.youtube.com/results?search_query=survivalgames+map+download" class="more"> >> See the intro video here </a>
 						</div>
 					</div>
 				</div>
