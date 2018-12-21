@@ -3,14 +3,6 @@ html, body {
 	height: 100% !important;
 }
 
-hr {
-    width: 95%;
-    height: 5px;
-    margin: 0 auto;
-    color: black;
-    background: #dfac20;
-}
-
 .main-loading {
 	position: fixed;
 	top: 50%;

@@ -31,7 +31,7 @@
 			        <a class="nav-link smooth-link" href="index.php#dashboard">Dashboard</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="index.php#features">Our Server</a>
+			        <a class="nav-link smooth-link" href="dashboard.php#features">Our Server</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link smooth-link" href="index.php#games">Our Games</a>
@@ -50,7 +50,7 @@
 		<section id="dashboard" data-bg="">
 			<center><img src="img/main-bg-slim.png"></center>
 		</section>
-<!--- CONTENT START --->
+
 		<section class="padding" id="bedwars">
 			<div class="container">
 				<center><h2 class="section-title">Example</h2></center>

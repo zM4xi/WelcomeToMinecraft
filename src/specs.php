@@ -28,7 +28,7 @@
 				  <div class="mr-auto"></div>
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link smooth-link" href="index.php#dashboard">Dashboard</a>
+			        <a class="nav-link smooth-link" href="dashboard.php#dashboard">Dashboard</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link smooth-link" href="index.php#features">Our Server</a>
@@ -55,7 +55,9 @@
 			<div class="container">
 				<h2 class="section-title">How much power have our servers</h2>
 				<div class="section-body">
+					<!-- Copy&Paste from HERE to (1) -->
 					<div class="row col-spacing">
+						<!-- Copy&Paste from HERE to (2) -->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
                 <img class="card-img-top" src="img/cpu.jpg">
@@ -65,6 +67,7 @@
 								</div>
 							</article>
 						</div>
+						<!-- HERE to create a new spec (2)-->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
                 <img class="card-img-top" src="img/ram.jpg">
@@ -84,12 +87,13 @@
 							</article>
 						</div>
 					</div>
+					<!-- HERE to create a new row (1)-->
 				</div>
         <center><h2 class="section-title">Well pretty damn much :D</h2></center>
 			</div>
 		</section>
 
-		<!--- CONTACT --->
+		<!--- contact start --->
 		<section class="padding bg-grey" id="contact">
 			<div class="container">
 				<h2 class="section-title text-center">Contact Us</h2>
@@ -128,8 +132,9 @@
 				</div>
 			</div>
 		</section>
+		<!--- contact end --->
 
-<!--- CONTENT END --->
+		<!--- footer start --->
 		<footer>
 			<div class="container">
 				<figure>
@@ -143,6 +148,7 @@
 				</p>
 			</div>
 		</footer>
+		<!--- footer end --->
 
 		<script src="js/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>

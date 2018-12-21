@@ -28,7 +28,7 @@
 				  <div class="mr-auto"></div>
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link smooth-link" href="index.php#dashboard">Dashboard</a>
+			        <a class="nav-link smooth-link" href="dashboard.php#dashboard">Dashboard</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link smooth-link" href="index.php#features">Our Server</a>
@@ -50,12 +50,14 @@
 		<section id="dashboard" data-bg="">
 			<center><img src="img/main-bg-slim.png"></center>
 		</section>
-<!--- CONTENT START --->
+
 		<section class="padding" id="whywe">
 			<div class="container">
 				<h2 class="section-title">Why you should play here</h2>
 				<div class="section-body">
+					<!--- Copy&Paste from HERE to (1) --->
 					<div class="row col-spacing">
+						<!--- Copy&Paste from HERE to (2) --->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
 								<div class="card-body">
@@ -64,6 +66,7 @@
 								</div>
 							</article>
 						</div>
+						<!--- HERE to create a new article (2) --->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
 								<div class="card-body">
@@ -81,14 +84,18 @@
 							</article>
 						</div>
 					</div>
+					<!-- HERE to create a new row (1)-->
 				</div>
 			</div>
 		</section>
+
 		<section class="padding" id="whoarewe">
 			<div class="container">
 				<h2 class="section-title">Who had the Idea</h2>
 				<div class="section-body">
+					<!--- Copy&Paste from HERE to (1) --->
 					<div class="row col-spacing">
+						<!--- Copy&Paste from HERE to (2) --->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
 								<img class="card-img-top" src="img/lil-mc-char.png">
@@ -99,6 +106,7 @@
 								</div>
 							</article>
 						</div>
+						<!--- HERE to create a new founder (2) --->
 						<div class="col-12 col-md-6 col-lg-4">
 							<article class="card">
 								<img class="card-img-top" src="img/lil-mc-char.png">
@@ -120,11 +128,12 @@
 							</article>
 						</div>
 					</div>
+					<!--- HERE to create a new row (1) --->
 				</div>
 			</div>
 		</section>
 
-		<!--- CONTACT --->
+		<!--- contact start --->
 		<section class="padding bg-grey" id="contact">
 			<div class="container">
 				<h2 class="section-title text-center">Contact Us</h2>
@@ -163,8 +172,9 @@
 				</div>
 			</div>
 		</section>
+		<!--- contact end --->
 
-<!--- CONTENT END --->
+		<!--- footer start --->
 		<footer>
 			<div class="container">
 				<figure>
@@ -178,6 +188,7 @@
 				</p>
 			</div>
 		</footer>
+		<!--- footer end --->
 
 		<script src="js/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
